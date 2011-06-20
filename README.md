@@ -23,7 +23,7 @@ where param source ('.') should point to your 'video/entry' xpath
 
 (example for backend view, using Nick Dunns HTML panel field extension)
 
-![](https://github.com/iwyg/videojs-utility/master/doc/videojs_be.png)
+![](https://github.com/iwyg/videojs-utility/raw/master/doc/videojs_be.png)
 
 
 
