@@ -72,7 +72,7 @@
 						data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
 						<param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
 						<param name="allowfullscreen" value="true" />
-						<xsl:variable name="flashvars"><![CDATA[config={'playlist':['{]]><xsl:value-of select="$poster" /><![CDATA[, {'url': ']]><xsl:value-of select="$flashvideo" /><![CDATA[','autoPlay':false,'autoBuffering':true}]}]]></xsl:variable>
+						<xsl:variable name="flashvars"><![CDATA[config={"playlist":["]]><xsl:value-of select="$poster" /><![CDATA[", {"url": "]]><xsl:value-of select="$flashvideo" /><![CDATA[","autoPlay":false,"autoBuffering":true}]}]]></xsl:variable>
 							
 
 						<param name="flashvars" value='{$flashvars}' />
